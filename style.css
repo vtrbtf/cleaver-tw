@@ -1,0 +1,60 @@
+/*
+	Orange: F78F31
+	Purpple: 6A2569
+	Green: 11AA58
+	Magenta: B11C54
+	Blue: 1A73BA
+*/
+@font-face {
+	font-family: 'Franklin Gothic Book';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Franklin Gothic Book'), url('assets/fonts/FRABK.woff') format('woff');
+}
+
+
+@font-face {
+	font-family: 'Franklin Gothic Book Italic';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Franklin Gothic Book Italic'), url('assets/fonts/FRABKIT.woff') format('woff');
+}
+
+body {
+	font-family: 'Franklin Gothic Book';
+	color: white;
+}
+
+h3 {
+	border-bottom: 2px solid rgba(255, 255, 255, 0.5);;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+.slide-content {
+	margin-top: 10px;
+}
+
+.slide {
+	background-color: #6A2569;
+}
+
+#slide-2 , #slide-9 , #slide-18 {
+	background-color: #B11C54;
+}
+
+#slide-7, #slide-14, #slide-21 {
+	background-color: #1A73BA;
+}
+
+#slide-8 , #slide-15 {
+	background-color: #11AA58;
+}
+
+#slide-13 , #slide-16 {
+	background-color: #F78F31;
+}
