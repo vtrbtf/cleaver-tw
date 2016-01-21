@@ -6,8 +6,8 @@ This repo is only a helper for building presentations in TW.
 It contains a basic font-family setting and pre-setted brand colors ( TW colors )
 
 ## Requirements
-    - npm
-    - [cleaver](https://github.com/jdan/cleaver) ( ```npm install -g cleaver``` )
+  * [npm](https://github.com/npm/npm)
+  * [cleaver](https://github.com/jdan/cleaver) ( `npm install -g cleaver` )
 
 ## Colors
 
