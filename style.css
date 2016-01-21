@@ -4,7 +4,12 @@
 	Green: 11AA58
 	Magenta: B11C54
 	Blue: 1A73BA
+	Lime: B5B935
+	Pink: EF5BA1
+	Brown: 5E3E2A
+	Red: EE312D
 */
+
 @font-face {
 	font-family: 'Franklin Gothic Book';
 	font-style: normal;
@@ -43,18 +48,31 @@ hr {
 	background-color: #6A2569;
 }
 
-#slide-2 , #slide-9 , #slide-18 {
-	background-color: #B11C54;
+/* Bg colors */
+.orange{
+	background-color: #F78F31;
 }
-
-#slide-7, #slide-14, #slide-21 {
-	background-color: #1A73BA;
+.purpple{
+	background-color: #6A2569;
 }
-
-#slide-8 , #slide-15 {
+.green{
 	background-color: #11AA58;
 }
-
-#slide-13 , #slide-16 {
-	background-color: #F78F31;
+.magenta{
+	background-color: #B11C54;
+}
+.blue{
+	background-color: #1A73BA;
+}
+.lime{
+	background-color: #B5B935;
+}
+.pink{
+	background-color: #EF5BA1;
+}
+.brown{
+	background-color: #5E3E2A;
+}
+.red{
+	background-color: #EE312D;
 }
