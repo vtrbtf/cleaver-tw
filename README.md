@@ -2,8 +2,8 @@
 A simple [cleaver](https://github.com/jdan/cleaver) template for internal presentations of TWers.
 
 ## About
-This repo is only a helper for building presentations in TW.
-It contains a basic font-family setting and pre-setted brand colors ( TW colors )
+This repo is only a helper for building presentations in TW with Markdown.
+It contains a basic font-family setting and predefined brand colors ( TW colors )
 
 ## Requirements
   * [npm](https://github.com/npm/npm)
@@ -43,3 +43,36 @@ Only append the theme entry in your cleaver Markdown file.
 # This is my purple slide
 
 ```
+
+___
+
+## Example
+
+#### Markdown
+
+```
+title: Performance Review
+author:
+  name: Vitor Barbosa
+  email: vbarbosa@thoughtworks.com  
+controls: false
+theme: vtrbtf/cleaver-tw
+
+-- purple
+# ThoughtWorks
+
+-- blue
+# Slide#1
+
+-- pink
+# Slide#2
+
+```
+
+` $ cleaver markdown-file.md`
+
+___
+
+#### Sample
+
+![sample.gif](sample.gif "Sample")
